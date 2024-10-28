@@ -18,7 +18,7 @@ public class DataTypes {
     String s = "test";
     String ss =new String("test");
 
-    Integer i = 4;
+    Integer i = 400;
     Integer i1 = new Integer(150);
 
 
@@ -28,7 +28,10 @@ public class DataTypes {
     Float f1 = 123.1f;
     Character c1 = 'f';
 
-
+    // This symbol is for Single line comment
+    /*
+    This for multi line comment
+     */
 
     public static void main(String[] args) {
 
@@ -51,6 +54,9 @@ public class DataTypes {
         System.out.println(type.l1);
         System.out.println(type.f1);
         System.out.println(type.c1);
+
+        System.out.println(type.i.doubleValue());
+        System.out.println(type.i.compareTo(type.i1));
 
     }
 
