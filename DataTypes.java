@@ -13,6 +13,23 @@ public class DataTypes {
     char dddd = 'a';
     char dddd1 = '\t';
 
+    // adavanced or wrapper data types
+// all types are 64bit
+    String s = "test";
+    String ss =new String("test");
+
+    Integer i = 4;
+    Integer i1 = new Integer(150);
+
+
+    Double d1 = 12.5;
+    Short s1= 12;
+    Long l1= 1234L;
+    Float f1 = 123.1f;
+    Character c1 = 'f';
+
+
+
     public static void main(String[] args) {
 
         DataTypes type = new DataTypes();
@@ -26,6 +43,14 @@ public class DataTypes {
         System.out.println(type.cc);
         System.out.println(type.dddd);
         System.out.println(type.dddd1);
+
+        System.out.println(type.i);
+        System.out.println(type.ss);
+        System.out.println(type.d1);
+        System.out.println(type.s1);
+        System.out.println(type.l1);
+        System.out.println(type.f1);
+        System.out.println(type.c1);
 
     }
 
