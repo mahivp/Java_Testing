@@ -1,3 +1,10 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+/.gitignore
+/kotlinc.xml
+/libraries/KotlinJavaRuntime.xml
+/misc.xml
+/modules.xml
+/vcs.xml
+out/
